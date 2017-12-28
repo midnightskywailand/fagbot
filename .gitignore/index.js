@@ -8,7 +8,7 @@ bot.on("ready", function()  {
     console.log("Bot Ready");
 })
 
-bot.login("MzcxMzYyMTQyMjIzNDY2NDk2.DSbfEQ.GNft6gHVxsiuZgv2lISy61_KWu0");
+bot.login("MzcxMzYyMTQyMjIzNDY2NDk2.DSb0Gw.r8xoTLHoiKSQgNCK-fCTkEzxJpM");
 
     if (message.content === "bite" ){
         message.reply("Surveille ton language !");
