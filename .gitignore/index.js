@@ -10,7 +10,6 @@ bot.on("ready", function()  {
 
 bot.login("MzcxMzYyMTQyMjIzNDY2NDk2.DSbfEQ.GNft6gHVxsiuZgv2lISy61_KWu0");
 
-bot.on('message', message => {
     if (message.content === "bite" ){
         message.reply("Surveille ton language !");
         console.log('Bite interdit');
@@ -73,4 +72,3 @@ bot.on('message', message => {
         //message.channel.sendMessage("Voici les commandes du FagBot : \n  /help pour afficher les commandes");
         console.log("Commande Help");
     }
-}
